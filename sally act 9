@@ -43,7 +43,7 @@ local rightFrame = createFrame("RightFrame", UDim2.new(thickness, 0, 1, 0), UDim
 
 -- Tween the frames to close in
 local tweenService = game:GetService("TweenService")
-local tweenInfo = TweenInfo.new(210, Enum.EasingStyle.Linear, Enum.EasingDirection.Out) -- Very very slow close-in effect
+local tweenInfo = TweenInfo.new(140, Enum.EasingStyle.Linear, Enum.EasingDirection.Out) -- Very very slow close-in effect
 
 local goalTop = {Size = UDim2.new(1, 0, 0.5, 0)}
 local goalLeft = {Size = UDim2.new(0.5, 0, 1, 0)}
